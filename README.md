@@ -19,7 +19,15 @@ The project page is available at:
 ├── README.md
 ├── index.html
 ├── style.css
-└── assets/
+assets/
+├── redandblack/
+│   ├── r6_lossy.png
+│   ├── r6_enhanced.png
+│   ├── r7_lossy.png
+│   ├── r7_enhanced.png
+│   ├── r8_lossy.png
+│   └── r8_enhanced.png
+└── soldier/
     ├── r6_lossy.png
     ├── r6_enhanced.png
     ├── r7_lossy.png
