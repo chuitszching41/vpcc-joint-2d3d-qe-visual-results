@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>V-PCC Quality Enhancement Visual Results</title>
+
+  <meta
+    name="description"
+    content="Supplementary visual comparisons for V-PCC compressed point cloud quality enhancement."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="page-card">
+    <header class="header">
+      <h1>
+        Video-based Point Cloud Compression Quality Enhancement Using Deep Learning Approach
+      </h1>
+
+      <p class="authors">
+        Siu-Kei Au Yeung, Senior Member, IEEE, Tsz-Ching Chui, Yu Liu, and Shuyuan Zhu, Member, IEEE
+      </p>
+
+    </header>
+
+    <section class="intro">
+      <p>
+        This page provides supplementary visual comparisons for V-PCC compressed
+        point cloud quality enhancement. Each result compares the lossy V-PCC
+        point cloud with the corresponding enhanced point cloud.
+      </p>
+    </section>
+
+    <section class="sequence-section">
+      <h2>Redandblack</h2>
+
+      <div class="rate-block">
+        <h3>R6</h3>
+        <div class="comparison-grid">
+          <figure>
+            <img class="zoomable" src="assets/redandblack/r6_lossy.jpg" alt="Redandblack R6 lossy">
+            <figcaption>(a) Lossy</figcaption>
+          </figure>
+
+          <figure>
+            <img class="zoomable" src="assets/redandblack/r6_enhanced.jpg" alt="Redandblack R6 enhanced">
+            <figcaption>(b) Enhanced</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="rate-block">
+        <h3>R7</h3>
+        <div class="comparison-grid">
+          <figure>
+            <img class="zoomable" src="assets/redandblack/r7_lossy.jpg" alt="Redandblack R7 lossy">
+            <figcaption>(a) Lossy</figcaption>
+          </figure>
+
+          <figure>
+            <img class="zoomable" src="assets/redandblack/r7_enhanced.jpg" alt="Redandblack R7 enhanced">
+            <figcaption>(b) Enhanced</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="rate-block">
+        <h3>R8</h3>
+        <div class="comparison-grid">
+          <figure>
+            <img class="zoomable" src="assets/redandblack/r8_lossy.jpg" alt="Redandblack R8 lossy">
+            <figcaption>(a) Lossy</figcaption>
+          </figure>
+
+          <figure>
+            <img class="zoomable" src="assets/redandblack/r8_enhanced.jpg" alt="Redandblack R8 enhanced">
+            <figcaption>(b) Enhanced</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="sequence-section">
+      <h2>Soldier</h2>
+
+      <div class="rate-block">
+        <h3>R6</h3>
+        <div class="comparison-grid">
+          <figure>
+            <img class="zoomable" src="assets/soldier/r6_lossy.jpg" alt="Soldier R6 lossy">
+            <figcaption>(a) Lossy</figcaption>
+          </figure>
+
+          <figure>
+            <img class="zoomable" src="assets/soldier/r6_enhanced.jpg" alt="Soldier R6 enhanced">
+            <figcaption>(b) Enhanced</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="rate-block">
+        <h3>R7</h3>
+        <div class="comparison-grid">
+          <figure>
+            <img class="zoomable" src="assets/soldier/r7_lossy.jpg" alt="Soldier R7 lossy">
+            <figcaption>(a) Lossy</figcaption>
+          </figure>
+
+          <figure>
+            <img class="zoomable" src="assets/soldier/r7_enhanced.jpg" alt="Soldier R7 enhanced">
+            <figcaption>(b) Enhanced</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="rate-block">
+        <h3>R8</h3>
+        <div class="comparison-grid">
+          <figure>
+            <img class="zoomable" src="assets/soldier/r8_lossy.jpg" alt="Soldier R8 lossy">
+            <figcaption>(a) Lossy</figcaption>
+          </figure>
+
+          <figure>
+            <img class="zoomable" src="assets/soldier/r8_enhanced.jpg" alt="Soldier R8 enhanced">
+            <figcaption>(b) Enhanced</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="note">
+      <p>
+        These figures are provided as supplementary qualitative comparisons.
+        Quantitative evaluations are reported in the paper.
+      </p>
+    </section>
+  </main>
+
+  <div id="imageViewer" class="viewer">
+    <div class="viewer-toolbar">
+      <button id="zoomOut">−</button>
+      <button id="zoomIn">+</button>
+      <button id="resetZoom">Reset</button>
+      <button id="closeViewer">Close</button>
+    </div>
+
+    <div class="viewer-canvas">
+      <img id="viewerImage" src="" alt="Expanded visual result">
+    </div>
+  </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
